@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bet+Vietnam:wght@100;300;400;500');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/*universal styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "be Vietnam";
+  overflow: hidden;
+}
+
+html {
+  font-size: 10px;
+  background: #bf0a30;
+  color: #fff;
+} 
+/* navbar styling */
+
+nav {
+ display: flex;
+ justify-content: space space-evenly;
+ align-items: center;
+}
+
+nav img {
+ margin-left: 100px;
+}
+
+nav ul {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ list-style: none;
+ margin-left: 250px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: 400;
+ color: #fff;
+ margin-left: 70px;
+}
+
+nav ul li a:hover {
+opacity: 0.6;
+}
+/* Main Header Content Styling */
+.header_main {
+ display: grid;
+ align-items: center;
+ grid-template-columns: 400px 1fr;
+ margin-left: 100px;
+}
+
+.header_main_content_h1 {
+ font-size: 63px;
+}
+
+.header_main_content_p {
+ font-size: 16px;
+ margin-top: 10px;
+ width: 80%;
+}
+
+.header_main_content button {
+font-size: 25px;
+padding: 14px 65px;
+border: none;
+outline: none;
+color: #fff;
+cursor: pointer;
+border-radius: 50px;
+margin-top: 50px;
+background-color: #fa8072;
+}
+
+.cta:hover {
+ opacity: 0.6;
+}
+
+.header_main_img img {
+ margin-left: -120px;
+ margin-top: -10px;
+ width: 700px;
+ height: 500px;
+}
+/* Social Media Icon Styling */
+.social_media {
+ padding-left: 30px;
+ padding-bottom: 50px;
+}
+
+svg {
+ margin-left: 10px;
+ border: 2px solid #fff;
+ border-radius: 50%;
+ width: 30px;
+ padding-top: -1px;
+ padding-left: -2px;
+ cursor: pointer;
+}
+
+svg:hover {
+ opacity: 0.6;
+}
